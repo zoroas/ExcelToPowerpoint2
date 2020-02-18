@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExcelToPowerpoint2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="900">
     <Grid Background="White" AllowDrop="True">
         <Grid.Resources>
             <Style 
@@ -166,7 +166,7 @@
                     FontSize="16" 
                     Name="TBRowToGetColumns"
                     Text="{Binding Path=RowNumberToGetColumns}"
-                ToolTip="The row of the Excel data file where to get the headers."
+                        ToolTip="The row of the Excel data file where to get the headers."
                     />
             <TextBlock 
                     FontSize="18" 
